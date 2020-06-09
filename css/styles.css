@@ -30,6 +30,13 @@ a {
   text-decoration: none; /* Отменяем подчеркивание у ссылки */
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  outline: 2px solid tomato;
+}
+
 /* Logo */
 
 .logo {
@@ -68,6 +75,8 @@ a {
 }
 
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -110,15 +119,18 @@ a {
 }
 
 /* Hero */
+.hero {
+  text-align: center;
+}
 
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
   color: var(--primary-text-color);
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -126,6 +138,8 @@ a {
 /* Section */
 
 .section-title {
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--primary-text-color);
 
   font-weight: bold;
@@ -256,7 +270,16 @@ a {
 /* Button */
 
 .button {
+  display: inline-block;
   color: var(--primary-text-color);
+  text-align: center;
+
+  padding: 10px 32px;
+  min-width: 200px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
 }
 
 .button.primary {
