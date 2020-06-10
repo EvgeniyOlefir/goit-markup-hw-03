@@ -30,9 +30,17 @@ a {
   text-decoration: none; /* Отменяем подчеркивание у ссылки */
 }
 
+ul,
+p {
+  padding: 0;
+  margin: 0;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
+  padding-right: 20px;
+  padding-left: 20px;
   width: 1200px;
   outline: 2px solid tomato;
 }
@@ -137,9 +145,18 @@ a {
 
 /* Section */
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section.no-padding {
+  padding-top: 0;
+}
+
 .section-title {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 50px;
   color: var(--primary-text-color);
 
   font-weight: bold;
@@ -152,6 +169,8 @@ a {
 /* Block */
 
 .block-title {
+  margin-top: 0;
+  margin-bottom: 10px;
   color: var(--primary-text-color);
 
   font-style: normal;
@@ -162,6 +181,9 @@ a {
 }
 
 .text {
+  margin-top: 0;
+  margin-bottom: 0;
+
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -170,6 +192,11 @@ a {
 }
 
 /* изменить цвет ссылки на белый */
+
+.activities {
+  margin-bottom: 140px;
+}
+
 .activities-link {
   color: var(--white);
   background-color: var(--secondary-text-color);
@@ -192,6 +219,8 @@ a {
 }
 
 .name {
+  margin-top: 0;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -200,6 +229,8 @@ a {
 }
 
 .profession {
+  margin-top: 0;
+  margin-bottom: 16px;
   color: var(--secondary-text-color);
 
   font-weight: 400;
