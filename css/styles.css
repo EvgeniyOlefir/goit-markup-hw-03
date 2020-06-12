@@ -39,10 +39,10 @@ p {
 .container {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
 
-  width: 1200px;
+  width: 1230px;
   outline: 2px solid tomato;
 }
 
@@ -205,6 +205,15 @@ p {
   letter-spacing: 0.03em;
 }
 
+.features-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features-item {
+  width: 270px;
+}
+
 /* Block */
 
 .block-title {
@@ -232,19 +241,32 @@ p {
 
 /* изменить цвет ссылки на белый */
 
-.activities {
+.activities-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.activities-title {
+  width: 370px;
   margin-bottom: 140px;
+  text-align: center;
 }
 
 .activities-link {
-  color: var(--white);
-  background-color: var(--secondary-text-color);
+  display: inline-block;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  width: 370px;
+  height: 70px;
 
-  font-weight: bold;
+  color: var(--white);
+  background-color: rgba(47, 48, 58, 0.8);
+
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .activities-link:hover,
@@ -255,6 +277,15 @@ p {
 /* Team */
 .team-section {
   background-color: #f5f4fa;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-item {
+  width: 270px;
 }
 
 .name {
@@ -289,6 +320,23 @@ p {
 }
 
 /* Clients */
+
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.client-item {
+  display: inline-block;
+  width: 170px;
+  height: 90px;
+  text-align: center;
+}
+
+.client-logo {
+  width: 170px;
+  height: 90px;
+}
 
 .client-logo:hover,
 .client-logo:focus {
