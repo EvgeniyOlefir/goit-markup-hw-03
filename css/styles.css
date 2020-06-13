@@ -331,11 +331,15 @@ p {
   width: 170px;
   height: 90px;
   text-align: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 .client-logo {
+  display: inline-block;
   width: 170px;
   height: 90px;
+  padding-top: 20px;
 }
 
 .client-logo:hover,
@@ -350,12 +354,18 @@ p {
   color: var(--white);
 }
 
+.logo-footer {
+}
+
 .address {
+  display: flex;
+  align-content: space-between;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-bottom: 9px;
 }
 
 .contact-item {
@@ -366,6 +376,14 @@ p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-bottom: 9px;
+}
+
+.contact-info {
+}
+
+.contact-block {
+  display: flex;
 }
 
 .call {
@@ -382,8 +400,16 @@ p {
   font-weight: normal;
   font-size: 12px;
   line-height: 2;
-  text-align: center;
+
   letter-spacing: 0.03em;
+}
+
+.copyright-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 18px;
+  padding-bottom: 21px;
 }
 
 .page-footer .social-link {
