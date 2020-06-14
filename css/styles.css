@@ -449,6 +449,13 @@ p {
 }
 
 .button-portfolio {
+  margin-right: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 22px;
+  padding-left: 22px;
+  border-radius: 4px;
+
   color: var(--primary-text-color);
   background-color: #f5f4fa;
 }
