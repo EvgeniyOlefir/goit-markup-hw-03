@@ -182,10 +182,6 @@ p {
   text-transform: uppercase;
 }
 
-.hero-title.portfolio {
-  margin-bottom: 0;
-}
-
 /* Section */
 
 .section {
@@ -471,8 +467,14 @@ p {
 
 /* Galery */
 
+.title-portfolio {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .filter {
   margin-bottom: 50px;
+  padding-top: 93px;
 }
 .filter-item {
   display: flex;
@@ -480,12 +482,12 @@ p {
 }
 
 .galery {
-  padding-bottom: 94px;
 }
 
 .galery-list {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 94px;
 }
 
 .galery-item {
@@ -526,4 +528,11 @@ p {
   font-size: 18px;
   line-height: 2, 0;
   letter-spacing: 0.06em;
+}
+
+.footer-title {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  color: var(--primary-text-color);
 }
