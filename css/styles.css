@@ -471,14 +471,15 @@ p {
 
 /* Galery */
 
+.filter {
+  margin-bottom: 50px;
+}
 .filter-item {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
 }
 
 .galery {
-  padding-top: 34px;
   padding-bottom: 94px;
 }
 
