@@ -474,7 +474,7 @@ p {
 .filter-item {
   display: flex;
   justify-content: center;
-  margin-right: 8px;
+  margin-bottom: 50px;
 }
 
 .galery {
