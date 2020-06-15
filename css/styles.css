@@ -166,6 +166,7 @@ p {
 /* Hero */
 .hero {
   text-align: center;
+  margin-bottom: 94px;
 }
 
 .hero-title {
@@ -187,8 +188,7 @@ p {
 /* Section */
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  margin-bottom: 94px;
 }
 
 .section.no-padding {
@@ -239,6 +239,7 @@ p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 
 /* изменить цвет ссылки на белый */
